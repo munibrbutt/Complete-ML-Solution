@@ -1,0 +1,18 @@
+### Predict Positive Sentiment
+POST http://localhost:5062/Sentiment/PredictSentiment
+Content-Type: application/json
+
+{
+  "text": "I really like this service"
+}
+
+###
+
+### Predict Negative Sentiment
+POST http://localhost:5062/Sentiment/PredictSentiment
+Content-Type: application/json
+
+{
+  "text": "This is awful and I hate it"
+}
+

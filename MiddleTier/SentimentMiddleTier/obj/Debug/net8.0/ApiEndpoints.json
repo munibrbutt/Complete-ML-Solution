@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "SentimentMiddleTier.Controllers.SentimentController",
+    "Method": "PredictSentiment",
+    "RelativePath": "Sentiment/PredictSentiment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "input",
+        "Type": "SentimentMiddleTier.Models.SentimentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SentimentMiddleTier.Models.SentimentResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
